@@ -1,0 +1,4 @@
+1) root -l -b -q recupTheZpeak.C ->extract the fit canvas and store them in the directory 'fitPlots'
+2) source putGoodShape.csh 	 ->change the name in a more readable name, more conveniant in a web page
+
+ 
