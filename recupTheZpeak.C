@@ -1,10 +1,10 @@
 
 
-TString outputDir = "fitPlots"; 		//directory that will contain the fit plots
-TString thePlotToDraw[1] = {"Tight2012"}; 	// name of the ID in the TnP trees 
-TString theName[1] = {"Tight_POG_ID"}; 		// name of the ID that will appear on the plot ...
+TString outputDir = "/afs/cern.ch/user/h/hbrun/CMSSW_5_3_2_patch2/src/TagAndProbeDirs/fitMuonsAll2012/latestStudies/higgsBaseline/xTract/fitPlots"; 		//directory that will contain the fit plots
+TString thePlotToDraw[1] = {"TOGCPFTIPMVA"}; 	// name of the ID in the TnP trees 
+TString theName[1] = {"Hww_selection"}; 		// name of the ID that will appear on the plot ...
 nbOfIds = 1;					//number of IDs
-TString thePath = "/afs/cern.ch/user/h/hbrun/public/testTnPoutput/";// the directory where to find the TnP output 
+TString thePath = "/afs/cern.ch/user/h/hbrun/CMSSW_5_3_2_patch2/src/TagAndProbeDirs/fitMuonsAll2012/latestStudies/higgsBaseline";// the directory where to find the TnP output 
 TString kind;
 recupTheZpeak(){
 //	TDirectory *theDr = (TDirectory*) myFile->Get("eleIDdir");///denom_pt/fit_eff_plots");
