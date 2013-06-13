@@ -49,7 +49,7 @@ recupTheZpeak(){
 							while (key3 = (TKey*)nextkey3()) {
 								TString theTypeClasse3 = key3->GetClassName();
 								TString theNomClasse3 = key3->GetTitle();	
-								if (((theNomClasse3.Contains("FromMC"))||(theNomClasse3.Contains("higgsSF")))&&(!(theNomClasse3.Contains("all")))) {
+								if (((theNomClasse3.Contains("vpvPlusExpo"))||(theNomClasse3.Contains("higgsSF")))&&(!(theNomClasse3.Contains("all")))) {
 									TCanvas *theCanvas = (TCanvas*) myFile->Get(theNomClasse+"/"+theNomClasse2+"/"+theNomClasse3+"/fit_canvas");
 									theCanvas->Print(outputDir+"/"+kind+"_"+theName[theIndex]+"__"+theNomClasse3+".png");
 									
